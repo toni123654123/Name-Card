@@ -24,9 +24,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -120,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "Name-Card"
+  "defaultProject": "Name-Card",
+  "cli": {
+    "analytics": "c5e4ec63-b65c-42b9-a6da-7dfdb1639f4a"
+  }
 }
